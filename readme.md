@@ -1,6 +1,6 @@
 ### Minion Lab (Stream AI) Bot
 
-- Register Link : [Register](https://app.minionlab.ai/?referralCode=LcNMGhRZ)
+- Register Link : [Register](https://app.minionlab.ai/?referralCode=IeDxPvSq)
 
 - Download Extension : [Extension](https://chromewebstore.google.com/detail/stream-ai-a-revolutionary/fgamijdhamopilihagheoalbifagafka)
 
@@ -12,7 +12,7 @@
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/ahlulmukh/minionlab-bot.git
+   git clone https://github.com/SKaaalper/minionlab-bot.git
    ```
 2. Navigate to the project directory:
 
@@ -29,28 +29,28 @@
 
 ## Usage
 
-1. Set the `accounts.txt` and `proxy.txt (if you want to use proxy)` before running the script. Below how to setup this fie.
-2. Configuration:
-   make file `accounts.txt` and put your account with format .
+1. Set the `accounts.txt` : Format `email:password`
+   ```
+   nano accounts.txt
+   ```
+2. Set the `proxy.txt` : Format `http://ip:port`
 
-```
-email:password
-email:password
-email:password
-```
+   ```
+   nano proxy.txt
+   ```
 
-If you want using proxy, make file `proxy.txt` and put your proxy with format.
-
-```
-http://ip:port
-http://username:password@ip:port
-```
-
-3. Run the script:
+3. Create a session:
+   ```
+   screen -S minionlab
+   ```
+   
+4. Run the script:
 
 ```bash
 npm run start
 ```
+- Detach screen Ctrl + A, Then click D
+
 
 ## Update
 
@@ -65,11 +65,6 @@ npm run start
    ```bash
    npm run build
    ```
-
-### Stay Connected
-
-- Channel Telegram : [Telegram](https://t.me/elpuqus)
-- Channel WhatsApp : [Whatsapp](https://whatsapp.com/channel/0029VavBRhGBqbrEF9vxal1R)
 
 ## Note
 
